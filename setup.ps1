@@ -22,3 +22,6 @@ winget install --id Microsoft.VisualStudioCode -e --accept-package-agreements --
 Write-Host ""
 Write-Host "All installs complete. Close and reopen PowerShell (as Administrator) to refresh PATH." -ForegroundColor Green
 Write-Host "Docker Desktop will require a reboot before first use." -ForegroundColor Yellow
+
+Write-Host "Installing Ollama..." -ForegroundColor Cyan
+winget install --id Ollama.Ollama -e --accept-package-agreements --accept-source-agreements
